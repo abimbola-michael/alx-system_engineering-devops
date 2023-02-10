@@ -1,2 +1,2 @@
 #!/bin/bash
-cchmod -m 751 my_dir
+cchmod -m=751 my_dir
