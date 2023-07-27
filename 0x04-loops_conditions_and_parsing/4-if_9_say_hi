@@ -6,7 +6,7 @@ while ((i < 10))
 do
 	echo "Best School"
 	((i++))
-	if [$i -eq 9]
+	if [ $i -eq 9 ]
 	then
 		echo "Hi"
 	fi
