@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+$ for pushing to github
+
+git add .
+git commit -m "Update"
+git push
