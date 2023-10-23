@@ -19,7 +19,7 @@ if __name__ == "__main__":
     with open("{}.json".format(userId), "w") as jsonFile:
         json.dump({
             userId: [{
-                "task": togo.get("title"),
+                "task": todo.get("title"),
                 "completed": todo.get("completed"),
                 "username": username
                  } for todo in todos]
