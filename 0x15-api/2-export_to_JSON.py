@@ -13,7 +13,7 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
     userId = sys.argv[1]
     user = requests.get(url + "users/" + userId).json()
-    username = user.get("name")
+    username = user.get("username")
     todos = requests.get(url + "todos", params={"userId": userId}).json()
 
     with open("{}.json".format(userId), "w") as jsonFile:
